@@ -1,0 +1,17 @@
+{
+  "secoes": [
+    { "id": "1", "nome": "Computadores", "corPrimaria": "#57c278", "corSecundaria": "#d9f7e9" },
+    { "id": "2", "nome": "Acessórios", "corPrimaria": "#82cffa", "corSecundaria": "#e8f8ff" },
+    { "id": "3", "nome": "Impressoras", "corPrimaria": "#a6d157", "corSecundaria": "#f0f8e2" },
+    { "id": "4", "nome": "Games", "corPrimaria": "#e06b69", "corSecundaria": "#fde7e8" },
+    { "id": "5", "nome": "Gadgets", "corPrimaria": "#db6ebf", "corSecundaria": "#fae9f5" }
+  ],
+  "marcas": [
+    { "id": "1", "nome": "HP" },
+    { "id": "2", "nome": "Dell" },
+    { "id": "3", "nome": "Positivo" },
+    { "id": "4", "nome": "Asus" },
+    { "id": "5", "nome": "Xing Ling genérico" }
+  ],
+  "produtos": []
+}
