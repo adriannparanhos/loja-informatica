@@ -1,0 +1,29 @@
+.form-container {
+    background-color: var(--surface);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+    overflow: hidden;
+    position: sticky;
+    top: 20px;
+}
+
+.form-header {
+    background-color: #f8fafc;
+    padding: 20px 25px;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.form-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.form-body {
+    padding: 25px;
+}
+
+.form-action {
+    margin-top: 25px;
+}

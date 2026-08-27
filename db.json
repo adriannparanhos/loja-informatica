@@ -1,17 +1,91 @@
 {
   "secoes": [
-    { "id": "1", "nome": "Computadores", "corPrimaria": "#57c278", "corSecundaria": "#d9f7e9" },
-    { "id": "2", "nome": "Acessórios", "corPrimaria": "#82cffa", "corSecundaria": "#e8f8ff" },
-    { "id": "3", "nome": "Impressoras", "corPrimaria": "#a6d157", "corSecundaria": "#f0f8e2" },
-    { "id": "4", "nome": "Games", "corPrimaria": "#e06b69", "corSecundaria": "#fde7e8" },
-    { "id": "5", "nome": "Gadgets", "corPrimaria": "#db6ebf", "corSecundaria": "#fae9f5" }
+    {
+      "id": "1",
+      "nome": "Computadores",
+      "corPrimaria": "#57c278",
+      "corSecundaria": "#d9f7e9"
+    },
+    {
+      "id": "2",
+      "nome": "Acessórios",
+      "corPrimaria": "#82cffa",
+      "corSecundaria": "#e8f8ff"
+    },
+    {
+      "id": "3",
+      "nome": "Impressoras",
+      "corPrimaria": "#a6d157",
+      "corSecundaria": "#f0f8e2"
+    },
+    {
+      "id": "4",
+      "nome": "Games",
+      "corPrimaria": "#e06b69",
+      "corSecundaria": "#fde7e8"
+    },
+    {
+      "id": "5",
+      "nome": "Gadgets",
+      "corPrimaria": "#db6ebf",
+      "corSecundaria": "#fae9f5"
+    }
   ],
   "marcas": [
-    { "id": "1", "nome": "HP" },
-    { "id": "2", "nome": "Dell" },
-    { "id": "3", "nome": "Positivo" },
-    { "id": "4", "nome": "Asus" },
-    { "id": "5", "nome": "Xing Ling genérico" }
+    {
+      "id": "1",
+      "nome": "HP"
+    },
+    {
+      "id": "2",
+      "nome": "Dell"
+    },
+    {
+      "id": "3",
+      "nome": "Positivo"
+    },
+    {
+      "id": "4",
+      "nome": "Asus"
+    },
+    {
+      "id": "5",
+      "nome": "Xing Ling genérico"
+    }
   ],
-  "produtos": []
+  "produtos": [
+    {
+      "nome": "Teclado ",
+      "preco": "300",
+      "imagem": "https://www.oficinadosbits.com.br/produto/teclado-usb-multimidia-c3tech-kb-m10bk-abnt2-preto/?srsltid=AfmBOoqNvBEsmP02fl5Xj2E0ch2KUYrrIPQajw5bvtnFGagOLTSJjrTW",
+      "secao": "Computadores",
+      "marca": "HP",
+      "id": "NSuXwgWwxhw"
+    },
+    {
+      "nome": "teste",
+      "preco": "560",
+      "imagem": "https://www.oficinadosbits.com.br/produto/teclado-usb-multimidia-c3tech-kb-m10bk-abnt2-preto/?srsltid=AfmBOoqNvBEsmP02fl5Xj2E0ch2KUYrrIPQajw5bvtnFGagOLTSJjrTW",
+      "secao": "Impressoras",
+      "marca": "Asus",
+      "id": "WgDBECduhiQ"
+    },
+    {
+      "nome": "celular",
+      "preco": "1500",
+      "imagem": "https://www.google.com/search?client=opera-gx&hs=G58&sca_esv=0dc2754d06e7c7da&sxsrf=APpeQnvKV8gD3hmqhVKKjvJinm3sdjfBEg:1787872497779&udm=2&fbs=ABfTbFVGaQeaqnsRPI5sOMG32Ksz6cz9h3eVUp5ML7qH5WsxvabC1UUZKx25rNd3fIh5KRrezBnJ85Zvw6Q-Pjs-Mu0VEPfSq_rBI555p7HNl4cQ6cE47ufVjfcC0uhqp0id_Q2rljLbDpf7x-bPP9hrPaXG59gB_rg336gRXswY_miA6K--vFye7ziyQ3iW1d6TCeAkMgg6V1TAMwZ3AG_vL6jMUji6Rg&q=celular&sa=X&ved=2ahUKEwimqIiJ-MGWAxUXDbkGHTv6AwcQtKgLegQIFBAB&biw=1321&bih=659&dpr=1#sv=CAMSURoyKhBlLURfLTZNS2xYa082TmRNMg5EXy02TUtsWGtPNk5kTToOSWNFcURpR0dyNy1FOU0gBCoXCgFzEhBlLURfLTZNS2xYa082TmRNGAEwARgHINuezbQOSggQARgBIAEoAQ",
+      "secao": "Gadgets",
+      "marca": "Positivo",
+      "id": "qtaUE13QiLk"
+    },
+    {
+      "nome": "celular samsung",
+      "preco": "3599",
+      "imagem": "https://www.havan.com.br/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/c/e/celular-samsung-galaxy-a17-128gb-4gb-50mp-tela-67-ip54_1306310.webp",
+      "secao": "Computadores",
+      "marca": "Asus",
+      "id": "czWusSPYWSA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
